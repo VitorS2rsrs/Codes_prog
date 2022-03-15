@@ -1,6 +1,6 @@
 # Códigos aula até dia 15/03
 
-## Calculo-PA
+### Calculo-PA
 
   * Como o nome diz aprendemos como calcular o valor de "PA" ou mais conhecido como "Progressão aritmética" utilizando o comando 'fuction', 'var', 'imput' e o 'a href=' utilizado  para anexar um link em um botão.
 
