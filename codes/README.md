@@ -12,3 +12,6 @@
 
  * Já no GamesEduu aprendendemos 'While' ou "em quanto". E o resto foi revisão.
 
+##### Site
+
+ * Nesse aprendemos a como dar inicil em um site. Criando toda a estrutura através dos comandos no arquivo, também aprendemos a adicionar um um botão com 'button'.
