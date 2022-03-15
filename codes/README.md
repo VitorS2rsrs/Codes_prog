@@ -6,7 +6,7 @@
 
 ### Danonão Grosso
 
-  * Já no Danonão aprendemos "id", alem do 'radio'e o 'grupo'. Tambem aprendemos a modificar um documento dentro de um script com o comando 'document.getElementById( id do objeto ) ou da tag ou da variavel.
+  * Já no Danonão aprendemos "id", alem do 'type=radio'e o 'name=grupo'. Tambem aprendemos a modificar um documento dentro de um script com o comando 'document.getElementById( id do objeto ) ou da tag ou da variavel.
 
 ### GamesEduu
 
