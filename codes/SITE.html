@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="https://images7.alphacoders.com/111/thumb-1920-1115466.jpg"
+    style="background-size: 1330px;"
+    
+    <H1>Olá</H1>
+    <p style="color:White;">Tudo bem? espero que sim!</p>
+
+    <button onclick="botao()"> Calcule o delta e a bhaskara :) </button>
+
+    <br><br>
+
+    <button onclick="CalculaIdade()">Quantos anos eu terei no final do ano</button>
+
+</body>
+
+</html>
+
+<script>
+
+    function botao(){
+        alert("Parabéns, você é burro!")
+        alert("bora tentar calcular o delta e a bhaskara !")
+        var a = Number(prompt("Digite o valor de 'A'!"));
+        var b = Number(prompt("Digite o valor de 'B'!"));
+        var c = Number(prompt("Digite o valor de 'C'!"));
+
+        var delta = (b*b-4*a*c)
+
+        var x1 = (-b + Math.sqrt(delta))/2*a
+        var x2 = (-b - Math.sqrt(delta))/2*a
+
+        var mensagem = "O resultado do x1 é: "+x1+", o resultado do x2 é: "+x2;
+
+        alert(mensagem)
+    }
+
+    function CalculaIdade() {
+        var ano = Number (prompt("Digite seu ano atual!"));
+        var nascimento = Number (prompt("Digite seu nascimento"));
+        var idade = ano - nascimento
+        var msg = "sua idade será: "+idade+" anos.\n";
+        
+    
+        if(idade < 18){
+        msg +="portanto, é menor de idade!\n"
+        }
+        else{
+        msg +="portanto, é maior de idade!\n"
+        }
+        if(idade % 2 == 0){
+        msg +="E portanto sua idade é par.\n"
+         }
+        else{
+        msg +="E portanto sua idade é impar.\n"
+        }
+        
+        alert(msg)
+    }
+
+
+</script>

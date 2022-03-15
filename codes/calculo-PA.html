@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+
+<body background="https://i.pinimg.com/236x/04/47/60/044760f09b46a3ecee7267f55a141caa.jpg"
+style="background-size: 700px;">
+
+<button onclick="calcAn()"> cálculo do An :) </button><br><br>
+<button onclick="calcA1()"> cálculo do a1 :) </button><br><br>
+<button onclick="calcR()"> cálculo do r :) </button><br><br>
+<button onclick="calcN()"> cálculo do n :) </button><br><br><br><br>
+
+
+    <input type="email" placeholder="Digite seu email"><br><br>
+    <input type="passoword" placeholder="Digite sua senha"><br><br>
+    <input type="date"><br><br>
+    
+    <a href="https://pbs.twimg.com/media/Eic7uR-XgAMdm4Z.jpg"> click aqui para sair da sua depressão. </a>
+
+</body>
+
+
+</html>
+
+
+
+<script>
+
+    function calcAn(){
+
+        var a1 = Number(prompt("Digite o valor de a1."));
+        var n = Number(prompt("Digite o valor de n."));
+        var r = Number(prompt("Digite o valor de r."));
+
+        var an = a1+(n-1)*r;
+
+        alert(an)
+    }
+
+
+    function calcA1(){
+
+        var an = Number(prompt("Digite o valor de an."));
+        var n = Number(prompt("Digite o valor de n."));
+        var r = Number(prompt("Digite o valor de r."));
+
+        var a1 = an-(n-1)*r;
+
+        alert(a1)
+
+    }
+
+    function calcR(){
+
+        var an = Number(prompt("Digite o valor de an."));
+        var n = Number(prompt("Digite o valor de n."));
+        var a1 = Number(prompt("Digite o valor de a1."));
+
+        var r = (an-a1)/(n-1);
+
+        alert(r)
+
+
+
+    }
+
+    function calcN(){
+
+        var an = Number(prompt("Digite o valor de an."));
+        var r = Number(prompt("Digite o valor de r."));
+        var a1 = Number(prompt("Digite o valor de a1."));
+
+        var n = 1+ ((an-a1)/r);
+
+        alert(n)
+
+    }
+
+
+
+
+</script>
+
+
